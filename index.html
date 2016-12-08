@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head> </head>
+<body>
+
+    <h1><span id="foo">MERA</span><span id="bar"> IJO</span></h1>
+
+</body>
+    <script>
+    function flash() {
+    var text = document.getElementById('foo');
+    text.style.color = (text.style.color=='red') ? 'green':'red';
+    var text2 = document.getElementById('bar');
+    text2.style.color = (text2.style.color=='green') ? 'red':'green';    
+}
+var clr = setInterval(flash, 100);
+        
+        
+    </script>
+</html>
